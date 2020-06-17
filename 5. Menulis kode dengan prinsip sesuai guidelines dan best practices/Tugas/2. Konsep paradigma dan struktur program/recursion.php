@@ -15,7 +15,7 @@
             }
         }
         display(1);
-?>    
+    ?>    
 
 </body>
 </html>
