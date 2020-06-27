@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variabel Lokal</title>
+	<title>Variabel Lokal</title>
 </head>
 <body>
-    <?php
-        $pemilik = "Erika";
-        print("pemilik semula: $pemilik<br>");
+	<?php
+		$pemilik = "Erika";
+		print("pemilik semula: $pemilik<br>");
 
-        ganti_pemilik();
+		ganti_pemilik();
 
-        print("pemilik sekarang: $pemilik<br>");
+		print("Pemilik sekarang: $pemilik<br>");
 
-        function ganti_pemilik() {
-            $pemilik = "Estianti";
+		function ganti_pemilik()
+		{
+			$pemilik = "Estianti";
 
-            print("Pemilik di fungsi ganti_pemilik(): $pemilik<br>");
+			print("Pemilik di fungsi ganti_pemilik(): $pemilik<br>");
 
-        }
-    ?>
+		}
+	?>
 </body>
 </html>
